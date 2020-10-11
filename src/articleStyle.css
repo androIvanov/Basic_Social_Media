@@ -1,0 +1,36 @@
+.article ,span{
+    background-color: #f9dcc4;
+    text-align: left;
+}
+.article{
+    margin-bottom: 2px;
+    border-bottom: solid;
+    border-color: #95d5b2;
+    border-radius: 0px 0px 10px 10px;
+}
+.articleInfo{
+    text-align: right;
+    background-color: #f9dcc4;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+.text{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fde3cd;
+    text-align: left;
+    line-height: 25px;
+}
+.author{
+    margin-right: 40px;
+}
+.title{
+    font-weight: 600;
+    margin-left: 15px;
+    float: left;
+    color: rgb(24, 51, 49);
+}
+.authorName, .categoryName{
+    color: green;
+    font-weight: 700;
+}

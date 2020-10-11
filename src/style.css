@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8edeb;
+}
+.App{
+    text-align: center;
+}
+.container{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: black;
+    display: inline-block;
+    margin-top: 5%;
+    filter: drop-shadow(40px 20px 7px #b8dbe4);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.userInfo{
+    display: inline-block;
+    background-color: #fcd5ce;
+    margin-top: 6px;
+    margin-right: 15px;
+}
+.usernameLabel{
+    background-color: #fcd5ce;
+}
+.username{
+    background-color: #fcd5ce;
+    color: green;
+    font-weight: 700;
+}
+.logout{
+    display: block;
+    width: 130px;
+    background-color: #83c5be;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.login{
+    background-color: #fcd5ce;
+    border: none;
+    background-color: #83c5be;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-top: 11px;
+    height: 30px;
+    cursor: pointer;
+}
+.content{
+    height: 600px;
+    overflow-y:auto
+}
+.outLabel{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #fcd5ce;
+    color: grey;
+}
+.statusBar{
+    background-color: #fcd5ce;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom, a{
+    background-color: #ffb5a7;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom{
+    height: 60px;
+}
+.bottom a{
+    margin-top: 21px;
+}
