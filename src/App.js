@@ -1,11 +1,15 @@
 import React from 'react';
+import {Router, Route} from 'react-router-dom';
 import Parent from './Patent';
 
 function App() {
   return (
-    <div className="App">
-      <Parent />
-    </div>
+    <Router>
+      {/* <div className="App"> */}
+      <Route exact path="/"><Parent /></Route>
+        
+      {/* </div> */}
+    </Router>
   );
 }
 

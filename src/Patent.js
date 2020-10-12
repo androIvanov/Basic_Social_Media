@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Article from './article.js';
 import './style.css';
 import './articleStyle.css';
@@ -9,7 +10,7 @@ function Parent() {
             <div className="container">
                 <div className="statusBar">
                     <span className="outLabel">Logged OUT</span>
-                    <button className="login">LogIn</button>
+                    <button className="login" ><Link to="/login">LogIn</Link></button>
                     <div className="userInfo">
                         <span className="usernameLabel">Username: </span>
                         <span className="username">Jax</span>
