@@ -1,0 +1,44 @@
+.loginFrom{
+    height: 600px;
+    width: 1326px;
+    background-color: #cdb4db;
+}
+.bottomSpan{
+    background-color: #cdb4db;
+}
+.labelOne{
+    padding-top: 80px;
+}
+.labelOne ,.labelTwo{
+    background-color: #cdb4db;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.input{
+    background-color: #bde0fe;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 30px;
+    width: 260px;
+    font-size: 20px;
+}
+.registerLink{
+    display: inline-block;
+    background-color: #cdb4db;
+}
+.submitter{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 30px;
+    width: 265px;
+    border: none;
+    background-color: #ffafcc;
+    margin-bottom: 160px;
+    font-size: 20px;
+    color: #0077b6;
+}
